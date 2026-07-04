@@ -9,7 +9,7 @@ class Solution {
             if(nums[i] > 0){
                 result[i] = nums[(i + nums[i]) % n];
             }else if(nums[i] < 0){
-                result[i] = nums[(i + nums[i] + n * 1000) % n];
+                result[i] = nums[(i + nums[i] % n * 1000) % n];
             }else if(nums[i] == 0){
                result[i] = nums[i];
             }
