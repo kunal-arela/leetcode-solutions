@@ -3,16 +3,6 @@
 
 class Solution {
     public boolean isPalindrome(String s) {
-         String new1 = s.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
-       int left = 0;
-       int right = new1.length() - 1;
-       while(left < right){
-        if(new1.charAt(left) != new1.charAt(right)){
-           return false;
-        }
-        left++;
-        right--;
-       }
-     return true;  
-  }
+             s.replace
+    }
 }
