@@ -4,11 +4,11 @@
 class Solution {
     public int search(int[] nums, int target) {
         int n = nums.length;
-        for(int i = 0;i<n;i++){
-            if(nums[i] == target){
-                return i;
-            }
+        int low = 0;
+        int high = 0;
+        int mid = (low + high)/2;
+        while(low <= high){
+            if(low )
         }
-        return -1;
     }
 }
